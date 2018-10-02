@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- CM additions -->
-    <project path="device/intel/sepolicy" name="CM-CHT/android_device_intel_sepolicy" revision="cm-12.1" />
-    <project path="external/thermal_daemon" name="CM-CHT/android_external_thermal_daemon" revision="cm-12.1" />
-    <project path="hardware/intel/libmedia_utils" name="CM-CHT/android_hardware_intel_libmedia_utils" revision="cm-12.1" />
-    <project path="hardware/intel/pstore-clean" name="CM-CHT/android_hardware_intel_pstore-clean" revision="cm-12.1" />
-    <project path="hardware/realtek/libbt" name="CM-CHT/android_hardware_realtek_libbt" revision="cm-12.1" />
-    <project path="hardware/realtek/wlan" name="CM-CHT/android_hardware_realtek_wlan" revision="cm-12.1" />
+    <project path="device/intel/sepolicy" name="DeVviL/android_device_intel_sepolicy" revision="cm-12.1" />
+    <project path="external/thermal_daemon" name="DeVviL/android_external_thermal_daemon" revision="cm-12.1" />
+    <project path="hardware/intel/libmedia_utils" name="DeVviL/android_hardware_intel_libmedia_utils" revision="cm-12.1" />
+    <project path="hardware/intel/pstore-clean" name="DeVviL/android_hardware_intel_pstore-clean" revision="cm-12.1" />
+    <project path="hardware/realtek/libbt" name="DeVviL/android_hardware_realtek_libbt" revision="cm-12.1" />
+    <project path="hardware/realtek/wlan" name="DeVviL/android_hardware_realtek_wlan" revision="cm-12.1" />
 
     <!-- CM removals -->
     <remove-project name="platform/hardware/intel/audio_media" />
@@ -23,22 +23,4 @@
     <remove-project name="CyanogenMod/android_hardware_intel_img_libdrm" />
     <remove-project name="platform/hardware/intel/img/psb_headers" />
     <remove-project name="platform/hardware/intel/img/psb_video" />
-
-    <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_bionic" />
-    <remove-project name="CyanogenMod/android_build" />
-    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-    <remove-project name="CyanogenMod/android_external_sepolicy" />
-    <remove-project name="CyanogenMod/android_frameworks_av" />
-    <remove-project name="CyanogenMod/android_system_core" />
-    <remove-project name="CyanogenMod/android_system_netd" />
-    <project path="bionic" name="CM-CHT/android_bionic" revision="cm-12.1" />
-    <project path="build" name="CM-CHT/android_build" revision="cm-12.1" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-    </project>
-    <project path="external/bluetooth/bluedroid" name="CM-CHT/android_external_bluetooth_bluedroid" revision="cm-12.1" />
-    <project path="external/sepolicy" name="CM-CHT/android_external_sepolicy" revision="cm-12.1" />
-    <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm-12.1" />
-    <project path="system/core" name="CM-CHT/android_system_core" revision="cm-12.1" />
-    <project path="system/netd" name="CM-CHT/android_system_netd" revision="cm-12.1" />
 </manifest>
