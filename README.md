@@ -17,5 +17,5 @@ Initialize repo:
 Compile:
 
     . build/envsetup.sh
-    brunch chuwi_vi10plus
+    brunch chuwi_hi10pro
 
