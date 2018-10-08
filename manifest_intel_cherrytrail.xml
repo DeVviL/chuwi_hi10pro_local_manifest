@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- LineageOS additions -->
-    <project path="hardware/realtek/wlan" name="CM-CHT/android_hardware_realtek_wlan" revision="cm-13.0" />
+    <project path="hardware/realtek/wlan" name="DeVviL/android_hardware_realtek_wlan" revision="cm-13.0" />
     <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-13.0" />
 
     <!-- LineageOS removals -->
@@ -19,12 +19,4 @@
     <remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
     <remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
     <remove-project name="platform/hardware/intel/sensors" />
-
-    <!-- LineageOS replacements -->
-    <remove-project name="LineageOS/android_build" />
-    <remove-project name="LineageOS/android_frameworks_av" />
-    <project path="build" name="CM-CHT/android_build" revision="cm-13.0" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-    </project>
-    <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm-13.0" />
 </manifest>
