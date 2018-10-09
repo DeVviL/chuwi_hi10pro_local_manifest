@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- LineageOS additions -->
-    <project path="hardware/realtek/wlan" name="DeVviL/android_hardware_realtek_wlan" revision="cm-13.0" />
+    <project path="hardware/realtek/wlan" name="DeVviL/android_hardware_realtek_wlan" revision="cm-14.1" />
     <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
 
     <!-- LineageOS removals -->
